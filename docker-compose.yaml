@@ -2,7 +2,7 @@ version: "3.7"
 services:
   app:
     container_name: knote-app
-    image: learnitguide/knotejs:1.0
+    image: skillupwithstan/knotejs:latest
     environment:
            MONGO_URL: mongodb://mongo_db_host:27017/dev
     ports:
